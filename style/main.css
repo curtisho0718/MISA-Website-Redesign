@@ -223,6 +223,12 @@ width:50%;
 
 
 @media(max-width: 992px){
+    h1{
+        font-size: 1em;
+    }
+    p{
+        font-size:0.80em;
+    }
     .toggle{
         display: block;
     }
@@ -233,6 +239,10 @@ width:50%;
     }
     .two.cols{
         width:100%;
+    }
+
+    .showcase_info{
+        top:25%;
     }
 
     .showcase_info h1{
