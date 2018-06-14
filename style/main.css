@@ -83,7 +83,7 @@ img{
 
 #what-we-do div{
     width: 50%;
-    padding-top: 15px;
+    padding-top: 10%;
     padding-bottom: 15px;
     margin-left: 45%;
 }
@@ -95,9 +95,11 @@ img{
 }
 h1{
     color:white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p{
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     color: #fff;
 }
@@ -277,5 +279,15 @@ width:50%;
     .mobile.hide{
         display: none;
 
+    }
+
+    #what-we-do{
+        background: #fff; 
+        height: unset;   
+
+    }
+
+    #what-we-do div{
+        margin:0 auto;
     }
 }
