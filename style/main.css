@@ -11,13 +11,25 @@ _____________Table of Content_______________
 body{
     margin:0;
     padding: 0;
+    background: rgb(57, 57, 57);
     font-family: sans-serif;
+}
+
+.row{
+    margin-top:50px;
+}
+
+.mobile.show{
+    display: none;
+}
+.mobile.hide{
+    display: block;
 }
 .showcase{
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url("../img/surrey_campus.jpg");
+    background: url("../img/showcase.jpg");
     background-size: cover;
 
 }
@@ -47,13 +59,28 @@ body{
 
 img{
     width: 100%;
-    padding: 50px;
-    object-fit: cover;
 }
 .logo img{
     width:auto;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+#what-we-do{
+    background:#fff;
+}
+#what-we-do h1{
+    color: #000;
+}
+#what-we-do p{
+    color:#000;
+}
+
+#what-we-do div{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 /*_________3. Typography_________  */
 .showcase_info h1{
@@ -61,9 +88,13 @@ img{
     font-size: 4em;
     margin: 1px;
 }
+h1{
+    color:white;
+}
 
 p{
     font-size: 1.5em;
+    color: #fff;
 }
 .ice.grey{
     color: rgb(27, 17, 17);
@@ -144,6 +175,7 @@ footer{
 
 footer p{
     padding: 25px;
+    margin: 0;
 }
 
 
@@ -174,6 +206,10 @@ footer p{
 width:50%;
 }
 
+.two.cols.center{
+    margin: 0 auto;
+}
+
 
 @media(max-width: 992px){
     .toggle{
@@ -183,6 +219,9 @@ width:50%;
         width: auto;
         height: 550px;
 
+    }
+    .two.cols{
+        width:100%;
     }
 
     .showcase_info h1{
@@ -220,5 +259,14 @@ width:50%;
         width:150px;
         padding-top: 20px;
         height: auto;
+    }
+
+
+    .mobile.show{
+        display: block;
+    }
+    .mobile.hide{
+        display: none;
+
     }
 }

@@ -8,7 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style/main.css">
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    
+
     <script type="text/javascript">
         $(document).ready(function () {
             $('.toggle').click(function () {
@@ -21,66 +21,85 @@
 <body>
     <section class="showcase">
         <div class="showcase_info">
-                    <h1>MIS Connect 2018 was a success!</h1>
-                    <p class="white">
-                        Thank you to all the attendees, organizations, and professionals!
-                    </p>
-                <a class="button" href="https://www.flickr.com/photos/103161342@N02/albums/72157688872482250/with/39960870975/" target="_blank">Event Photos</a>
+            <h1>MIS Connect 2018 was a success!</h1>
+            <p class="white">
+                Thank you to all the attendees, organizations, and professionals!
+            </p>
+            <a class="button" href="https://www.flickr.com/photos/103161342@N02/albums/72157688872482250/with/39960870975/" target="_blank">Event Photos</a>
 
         </div>
-            <nav>
-                    <a href="#" class="logo">
-                        <img src="img/logo.png" height="70px">
-                    </a>
-                    <a class="toggle">
-                        <div class="menu icon"></div>
-                        <div class="menu icon"></div>
-                        <div class="menu icon"></div>
-                    </a>
-            
-                    <ul class="">
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Partners</a>
-                        </li>
-                        <li>
-                            <a href="#">Event Pictures</a>
-                        </li>
-                        <li>
-                            <a href="#">Blog</a>
-                        </li>
-                    </ul>
-                </nav>
+        <nav>
+            <a href="#" class="logo">
+                <img src="img/logo.png" height="70px">
+            </a>
+            <a class="toggle">
+                <div class="menu icon"></div>
+                <div class="menu icon"></div>
+                <div class="menu icon"></div>
+            </a>
+
+            <ul class="">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Partners</a>
+                </li>
+                <li>
+                    <a href="#">Event Pictures</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+            </ul>
+        </nav>
 
     </section>
-    
+
     <div class="main">
         <div class="row">
             <div class="two cols">
-                    <h1>About Us</h1>
-                    <p>
-                        The Management Information Systems Association (MISA) is a student organization associated with the Beedie School of Business
-                        at Simon Fraser University, British Columbia. Our organization consists of dedicated executives and active members
-                        who recognize the importance of providing students with opportunities to learn more about the business technology
-                        industry and to participate in networking and social activities with local industry professionals. With over
-                        800 members, MISA is continuously growing and coming up with new, innovative ideas for events. By working together
-                        with industry firms like yours to provide students with high-caliber events, MISA also provides you with an exclusive
-                        look at the future leaders of tomorrow’s technology management industry – your future employees. To accomplish
-                        this, MISA has paved the way with our signature networking event of the year – MISA Mixer. We have been recognized
-                        by the SFU Business Administration student body as the two-time “Rising Star” award winner for the positive impact
-                        our events have made on students. We intend to continue providing our MIS students with opportunities, while
-                        developing closer ties between SFU and the local IT industry. Our commitment and dedication is reflected by our
-                        continued success and we look forward to sharing that success with you.
-                    </p>
+                <h1>About Us</h1>
+                <section class="mobile show">
+                    <div class="two cols">
+                        <img src="img/about_us.jpg">
+                    </div>
+                </section>
+                <p>
+                    The Management Information Systems Association (MISA) is a student organization associated with the Beedie School of Business
+                    at Simon Fraser University, British Columbia. Our organization consists of dedicated executives and active
+                    members who recognize the importance of providing students with opportunities to learn more about the
+                    business technology industry and to participate in networking and social activities with local industry
+                    professionals. With over 800 members, MISA is continuously growing and coming up with new, innovative
+                    ideas for events. By working together with industry firms like yours to provide students with high-caliber
+                    events, MISA also provides you with an exclusive look at the future leaders of tomorrow’s technology
+                    management industry – your future employees. To accomplish this, MISA has paved the way with our signature
+                    networking event of the year – MISA Mixer. We have been recognized by the SFU Business Administration
+                    student body as the two-time “Rising Star” award winner for the positive impact our events have made
+                    on students. We intend to continue providing our MIS students with opportunities, while developing closer
+                    ties between SFU and the local IT industry. Our commitment and dedication is reflected by our continued
+                    success and we look forward to sharing that success with you.
+                </p>
             </div>
-            <div class="two cols">
-                   <img src="img/about_us.jpg">
-            </div>
+
+            <section class="mobile hide">
+                <div class="two cols">
+                    <img src="img/about_us.jpg">
+                </div>
+            </section>
+            <!-- end of row -->
         </div>
-        
+        <!-- end of main -->
     </div>
+
+    <section id="what-we-do">
+        <div>
+            <h1>What we do</h1>
+            <p>MISA gives our members a competitive edge by facilitating events to help broaden their professional networks
+                and hosting workshops on in-demand business technology skills</p>
+        </div>
+    </section>
+
     <footer>
         <p>&copy; all right reserved to MISA 2018</p>
     </footer>
