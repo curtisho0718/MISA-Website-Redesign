@@ -67,7 +67,12 @@ img{
 }
 
 #what-we-do{
-    background:#fff;
+    background: url("../img/about_us.png");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+
+
 }
 #what-we-do h1{
     color: #000;
@@ -78,9 +83,9 @@ img{
 
 #what-we-do div{
     width: 50%;
-    margin: 0 auto;
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-left: 45%;
 }
 /*_________3. Typography_________  */
 .showcase_info h1{
@@ -208,6 +213,10 @@ width:50%;
 
 .two.cols.center{
     margin: 0 auto;
+}
+
+.two.cols.right{
+    margin-left: 25%;
 }
 
 
