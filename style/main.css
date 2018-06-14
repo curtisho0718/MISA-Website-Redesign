@@ -180,7 +180,8 @@ width:50%;
         display: block;
     }
     .showcase{
-        height: 450px;
+        width: auto;
+        height: 550px;
 
     }
 
@@ -194,7 +195,7 @@ width:50%;
         font-size: 1rem;
     }
     nav{
-        padding: 0, 0;
+        padding: 0;
         background:rbga(255,255,255,.5);
     }
 
@@ -213,5 +214,11 @@ width:50%;
         text-align: center;
         color: #fff;
         background: rgba(0, 0, 0, 0.4);      
+    }
+
+    .logo img{
+        width:150px;
+        padding-top: 20px;
+        height: auto;
     }
 }
